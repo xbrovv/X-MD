@@ -13,7 +13,7 @@ const util = require('util');
 const { cmd, commands } = require('./command');
 const { File } = require('megajs');
 const moment = require('moment-timezone');
-const ownerNumber = ['94742952930'];
+const ownerNumber = ['94761638379'];
 
 //============================================= npm package =====================================================
 const mongoose = require('mongoose');
@@ -557,7 +557,7 @@ conn.ev.on('connection.update', (update) => {
 
 > *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ-ᴛᴇᴄʜ*`;
             conn.sendMessage(ownerNumber + "@s.whatsapp.net", {
-                image: { url: `https://pomf2.lain.la/f/hxp64475.jpg` },
+                image: { url: `https://files.catbox.moe/h1xuqv.jpg` },
                 caption: up
             });
         }
@@ -956,7 +956,7 @@ cmd({
                 try {
                     ppuser = await conn.profilePictureUrl(num, 'image');
                 } catch {
-                    ppuser = 'https://pomf2.lain.la/f/hxp64475.jpg';
+                    ppuser = 'https://files.catbox.moe/h1xuqv.jpg';
                 }
     
                 if (anu.action == 'add') {
